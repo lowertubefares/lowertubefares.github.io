@@ -45,6 +45,26 @@
         </div>
         <hr/>
         <a href="mailto:ltf@gmail.com">Send us an email</a>
+        <p>You're the 
+            <?php
+            $viewCountFile = 'views.txt';
+            function incrementViewCount($file) {
+                if (file_exists($file)) {
+                    $count = (int) file_get_contents($file);
+                    $count++;
+                } else {
+                    $count = 1;
+                }
+                file_put_contents($file, $count);
+            }
+            
+            // Call the function to increment the view count
+            incrementViewCount($viewCountFile);
+            
+            // Display the current view count
+            echo 'Total Views: ' . file_get_contents($viewCountFile);
+            ?>
+            th viewer</p>
     </section>
 </body>
 </html>
