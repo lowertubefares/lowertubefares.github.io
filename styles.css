@@ -107,4 +107,8 @@
 .image{
     width: 50vw;
     margin-bottom: 2vw;
+    text-align: center;
+}
+.mail{
+    text-align: center;
 }
