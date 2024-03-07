@@ -94,10 +94,11 @@
 .main{
     margin-right: 8%;
     margin-left: 8%;
-    text-align: center;
+    
 }
 .mainheading{
     font-size: 28px;
+    text-align: center;
 }
 .maintext{
     margin-left: 20%;
