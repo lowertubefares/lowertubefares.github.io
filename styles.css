@@ -85,7 +85,7 @@
     text-decoration: none;
     text-align: center;
     margin-top: 25px;
-    margin-left: 33px;
+    margin-left: 20%;
     color: white;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
@@ -94,7 +94,7 @@
 .main{
     margin-right: 8%;
     margin-left: 8%;
-    
+    text-align: center;
 }
 .mainheading{
     font-size: 28px;
@@ -103,6 +103,7 @@
 .maintext{
     margin-left: 20%;
     margin-right: 20%;
+    text-align: center;
 }
 .image{
     width: 50vw;
