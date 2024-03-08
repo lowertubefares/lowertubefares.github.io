@@ -5,6 +5,8 @@
 }
 .inlineflex{
     display:inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .sidewaysmenu{
     background-color: white;
@@ -44,6 +46,7 @@
     position: absolute;
     width: 30vw;
     max-width: 130px;
+    text-align: center;
 }
 .donate:hover{
     background-color: rgb(36, 47, 116);   
