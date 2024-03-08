@@ -51,6 +51,8 @@
     line-height: 100%;
     left: 50%;
     list-style-type: none;
+    flex-direction: row;
+    display: flex;
 }
 
 .links-text{
