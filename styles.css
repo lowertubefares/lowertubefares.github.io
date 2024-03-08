@@ -20,8 +20,7 @@
     font-size: 2.3vh;
 }
 .logo{
-    margin-top: 21px;
-    margin-left: 5px;
+    height: 100%;
     max-width: 190px;
     justify-content: center;
     align-items: center;
@@ -51,7 +50,7 @@
     background-color: rgb(36, 47, 116);   
 }
 
-.links{
+.list{
     top:0;
     position: absolute;
     background-color: rgb(22, 16, 100);
