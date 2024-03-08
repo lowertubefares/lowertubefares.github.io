@@ -13,17 +13,10 @@
     border-bottom: 0.5px solid grey;
     height: 10vh;
     width: 100%;
-    display: flex;
 }
-.flex{
-    display:flex;
-    font-size: 2.3vh;
-}
+
 .logo{
     height: 100%;
-    max-width: 190px;
-    justify-content: center;
-    align-items: center;
 }
 .slogan{
     font-family: "Oswald", sans-serif;
@@ -53,10 +46,8 @@
 .list{
     top:0;
     position: absolute;
-    background-color: rgb(22, 16, 100);
     height: 100%;
     justify-content: center;
-    align-items: center;
     line-height: 100%;
 }
 
@@ -73,12 +64,14 @@
     margin-left: 64%;
 }
 .links-text{
+    background-color: rgb(22, 16, 100);
     color: rgb(255, 255, 255);
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     letter-spacing: -.02em;
     text-decoration: none;
     text-align: center;
+    width: max-content;
 }
 .links:hover{
     background-color: rgb(92, 78, 216);   
