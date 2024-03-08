@@ -23,7 +23,7 @@
 .logo{
     margin-top: 21px;
     margin-left: 5px;
-    height: 100%;
+    max-width: 190px;
 }
 .slogan{
     font-family: "Oswald", sans-serif;
