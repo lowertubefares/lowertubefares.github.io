@@ -3,11 +3,7 @@
     font-weight: 500;
     letter-spacing: -.02em
 }
-.inlineflex{
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .sidewaysmenu{
     background-color: white;
     float: left;
@@ -17,6 +13,7 @@
     border-bottom: 0.5px solid grey;
     height: 10vh;
     width: 100%;
+    display: flex;
 }
 .flex{
     display:flex;
@@ -26,6 +23,8 @@
     margin-top: 21px;
     margin-left: 5px;
     max-width: 190px;
+    justify-content: center;
+    align-items: center;
 }
 .slogan{
     font-family: "Oswald", sans-serif;
@@ -57,8 +56,9 @@
     position: absolute;
     background-color: rgb(22, 16, 100);
     height: 100%;
-    width: 30vw;
-    max-width: 130px;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
 }
 
 .ol{
