@@ -49,20 +49,10 @@
     height: 100%;
     justify-content: center;
     line-height: 100%;
+    left: 50%;
+    list-style-type: none;
 }
 
-.ol{
-    margin-left: 16%;
-}
-.il{
-    margin-left: 32%;
-}
-.ul{
-    margin-left: 48%;
-}
-.al{
-    margin-left: 64%;
-}
 .links-text{
     background-color: rgb(22, 16, 100);
     color: rgb(255, 255, 255);
@@ -71,7 +61,7 @@
     letter-spacing: -.02em;
     text-decoration: none;
     text-align: center;
-    width: max-content;
+    
 }
 .links:hover{
     background-color: rgb(92, 78, 216);   
