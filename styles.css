@@ -1,7 +1,7 @@
 .heading{
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    letter-spacing: -.02em
+    letter-spacing: +.1em
 }
 
 .sidewaysmenu{
@@ -32,16 +32,24 @@
 }
 .donate{
     background-color: rgb(0, 102, 255);
-    height: 100%;
     right: 0;
-    position: absolute;
-    width: 30vw;
-    max-width: 130px;
+    position:absolute;
+    height: 98%;
+    width: 10vw;
     text-align: center;
+    border: solid 0.1px rgb(0, 102, 255);
 }
 .donate:hover{
     background-color: rgb(36, 47, 116);   
 }
+.donate-text{
+    text-decoration: none;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    
+}
+
 
 .list{
     top:0;
@@ -49,38 +57,29 @@
     height: 100%;
     justify-content: center;
     line-height: 100%;
-    left: 50%;
+    margin-left: 10vw;
     list-style-type: none;
     flex-direction: row;
     display: flex;
+    align-items: center;
 }
 
 .links-text{
-    background-color: rgb(22, 16, 100);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    letter-spacing: -.02em;
     text-decoration: none;
     text-align: center;
+    height: 29%;
+    padding: 10px;
+    width: 8vw;
     
 }
-.links:hover{
-    background-color: rgb(92, 78, 216);   
+.links-text:hover{
+    border: 1px solid rgb(42, 25, 105);
+    border-bottom: 5px rgb(42, 25, 105) solid;  
 }
-.donate-text{
-    text-decoration: none;
-    text-align: center;
-    margin-top: 25px;
-    margin-left: 20%;
-    color: white;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    letter-spacing: -.02em
-}
+
 .main{
-    margin-right: 8%;
-    margin-left: 8%;
     text-align: center;
 }
 .mainheading{
@@ -88,12 +87,11 @@
     text-align: center;
 }
 .maintext{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: left;
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
-    font-size: 13;
 }
 .image{
     width: 50vw;
