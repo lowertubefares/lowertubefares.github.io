@@ -39,7 +39,7 @@
     height: 98%;
     width: 10vw;
     text-align: center;
-    border: solid 0.1px rgb(0, 102, 255);
+    border: solid 0.5px rgb(0, 102, 255);
 }
 .donate:hover{
     background-color: rgb(36, 47, 116);   
