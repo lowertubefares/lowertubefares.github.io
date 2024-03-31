@@ -54,7 +54,8 @@
 
 
 .list{
-    
+    margin-top: 0;
+    padding: 0;
     height: 100%;
     justify-content: center;
     line-height: 100%;
