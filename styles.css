@@ -93,7 +93,10 @@
     text-align: left;
     font-family: "Roboto Mono", monospace;
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
+}
+b{
+    font-size:16px;
 }
 .homelist{
     margin-left: 15%;
