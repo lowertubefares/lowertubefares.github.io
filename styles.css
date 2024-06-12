@@ -18,7 +18,7 @@
 .logo{
     position: absolute;
     top:0;
-    width:9vw;
+    width:8vw;
 }
 .slogan{
     font-family: "Oswald", sans-serif;
@@ -36,7 +36,7 @@
     position: absolute;
     top:0;
     right:0;
-    width:9vw;
+    width:8vw;
 }
 
 .list{
@@ -45,8 +45,8 @@
     height: 100%;
     justify-content: center;
     line-height: 100%;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
     list-style-type: none;
     flex-direction: row;
     display: flex;
