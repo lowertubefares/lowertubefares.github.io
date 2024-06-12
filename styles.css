@@ -33,21 +33,12 @@
     max-width: 60vw;
 }
 .donate{
-    background-color: rgb(0, 102, 255);
-    height: 50%;
-    width: 10vw;
-    text-align: center;
-    border: solid 0.5px rgb(0, 102, 255);
-    color: rgb(255, 255, 255);
-    font-family: "Anton", sans-serif;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px;
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translateX(-100%);
+    width:9vw;
 }
-.donate:hover{
-    background-color: rgb(36, 47, 116);   
-}
-
 
 .list{
     margin-top: 0;
