@@ -56,6 +56,7 @@
     justify-content: center;
     line-height: 100%;
     margin-left: 10vw;
+    margin-right: 10vw;
     list-style-type: none;
     flex-direction: row;
     display: flex;
