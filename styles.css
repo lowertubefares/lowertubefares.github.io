@@ -19,6 +19,7 @@
     height: 100%;
     position: absolute;
     top:0;
+    width:10vw;
 }
 .slogan{
     font-family: "Oswald", sans-serif;
